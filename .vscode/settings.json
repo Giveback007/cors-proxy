@@ -1,0 +1,22 @@
+{
+    "remote.SSH.defaultForwardedPorts": [],
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "typescript": "tsx",
+        "runInTerminal": true
+    },
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.saveAndRestartDebugger",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                "workbench.debug.panel.action.clearReplAction",
+                "workbench.action.debug.restart"
+            ]
+        }
+    ],
+    "cSpell.words": [
+        "Metafield"
+    ],
+}
